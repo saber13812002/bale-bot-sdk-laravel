@@ -1,15 +1,15 @@
 {
-  "name": "irazasyed/telegram-bot-sdk",
+  "name": "saber13812002/bale-bot-sdk-laravel",
   "description": "The Unofficial Telegram Bot API PHP SDK",
   "keywords": ["telegram", "telegram bot", "telegram bot api", "telegram sdk", "telegram php", "laravel telegram", "laravel"],
   "type": "library",
-  "homepage": "https://github.com/irazasyed/telegram-bot-sdk",
+  "homepage": "https://github.com/saber13812002/bale-bot-sdk-laravel",
   "license": "BSD-3-Clause",
   "authors": [
     {
-      "name": "Syed Irfaq R.",
-      "email": "syed+gh@lukonet.com",
-      "homepage": "https://github.com/irazasyed"
+      "name": "Sayed saber Tabatabaee yazdi",
+      "email": "saber.tabatabaee@gmail.com",
+      "homepage": "https://github.com/saber13812002"
     }
   ],
   "require": {
@@ -44,12 +44,12 @@
       "dev-master": "3.0-dev"
     },
     "laravel": {
-        "providers": [
-            "Telegram\\Bot\\Laravel\\TelegramServiceProvider"
-        ],
-        "aliases": {
-            "Telegram": "Telegram\\Bot\\Laravel\\Facades\\Telegram"
-        }
+      "providers": [
+        "Telegram\\Bot\\Laravel\\TelegramServiceProvider"
+      ],
+      "aliases": {
+        "Telegram": "Telegram\\Bot\\Laravel\\Facades\\Telegram"
+      }
     }
   },
   "config": {
